@@ -27,4 +27,5 @@ setup(
         "Topic :: Scientific/Engineering :: Information Analysis",
         ],
     install_requires = ["numpy>=1.5.0", "six"],
+    long_description = open(os.path.join(os.path.dirname(__file__), "README.rst"), "rb").read ()
 )
